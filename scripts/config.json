@@ -1,0 +1,327 @@
+{
+ "repo": "apis-scraping-leads-greece",
+ "title": "APIs Scraping για Εύρεση Πελατών (Lead Generation)",
+ "tagline": "Τα πιο δημοφιλή εργαλεία lead generation του Apify, ταξινομημένα με βάση τους πραγματικούς χρήστες ανά μήνα: επιχειρήσεις από Google Maps, emails και τηλέφωνα, LinkedIn και B2B δεδομένα, Χρυσός Οδηγός, Spitogatos, XE.gr και ελληνικές πηγές. Χωρίς κώδικα, εξαγωγή σε CSV, Excel ή στο CRM σας.",
+ "brand": "AutomationByExperts",
+ "storeCategory": "LEAD_GENERATION",
+ "storeCategoryLabel": "Lead generation",
+ "fetchLimit": 1500,
+ "topCount": 25,
+ "intro": "Μια επιλεγμένη λίστα, που ενημερώνεται κάθε εβδομάδα, με τους {count} actors εύρεσης πελατών που χρησιμοποιούνται πραγματικά, από τους {storeTotal} actors της κατηγορίας Lead Generation του Apify Store, μαζί με τα εργαλεία για ελληνικές και κυπριακές πηγές. Οι actors που δεν έτρεξε κανείς τις τελευταίες 30 ημέρες αφαιρούνται, και κάθε actor είναι ταξινομημένος ανά πηγή, ώστε να βρείτε σε δευτερόλεπτα ένα εργαλείο που δουλεύει για τοπικές επιχειρήσεις, B2B επαφές, εύρεση email ή εμπλουτισμό δεδομένων.",
+ "languages": [
+  {
+   "label": "English",
+   "repo": "lead-generation-scraping-apis"
+  },
+  {
+   "label": "Español",
+   "repo": "apis-scraping-generacion-de-leads"
+  },
+  {
+   "label": "Português",
+   "repo": "apis-scraping-geracao-de-leads"
+  },
+  {
+   "label": "Français",
+   "repo": "apis-scraping-generation-de-leads"
+  },
+  {
+   "label": "Ελληνικά",
+   "repo": "apis-scraping-leads-greece"
+  }
+ ],
+ "thousandsSeparator": ".",
+ "exampleActor": "compass/crawler-google-places",
+ "exampleInput": {
+  "searchStringsArray": [
+   "οδοντίατρος"
+  ],
+  "locationQuery": "Αθήνα, Ελλάδα",
+  "maxCrawledPlacesPerSearch": 50,
+  "language": "el"
+ },
+ "groups": [
+  {
+   "slug": "ellada-kypros",
+   "title": "Ελλάδα και Κύπρος",
+   "blurb": "Ελληνικές και κυπριακές πηγές: Χρυσός Οδηγός (xo.gr), vrisko.gr, 11880, ΓΕΜΗ, Spitogatos, XE.gr, kariera.gr, e-food και εταιρείες της Κύπρου.",
+   "keywords": [
+    "greece",
+    "ελλάδα",
+    "cyprus",
+    "κύπρος",
+    "xo.gr",
+    "xrysos odigos",
+    "vrisko",
+    "businessregistry",
+    "spitogatos",
+    "xe.gr",
+    "xe gr",
+    "kariera",
+    "jobfind",
+    "skywalker",
+    "e-food",
+    "efood",
+    "car.gr",
+    "skroutz",
+    "bestprice",
+    "insider.gr",
+    "athens",
+    "thessaloniki",
+    "limassol",
+    "nicosia",
+    "bazaraki",
+    "greek real estate",
+    "greek property",
+    "greek business",
+    "greek job",
+    "greek car",
+    "greek food",
+    "greek price",
+    "gemi.gov",
+    "ελληνικό μητρώο"
+   ]
+  },
+  {
+   "slug": "google-maps",
+   "title": "Google Maps και τοπικές επιχειρήσεις",
+   "blurb": "Επωνυμίες, διευθύνσεις, τηλέφωνα, websites, βαθμολογίες και κριτικές επιχειρήσεων από το Google Maps. Ο πιο γρήγορος τρόπος να φτιάξετε λίστα τοπικών πελατών.",
+   "keywords": [
+    "google maps",
+    "google places",
+    "gmaps",
+    "google business",
+    "maps scraper",
+    "google my business",
+    "places scraper"
+   ]
+  },
+  {
+   "slug": "email-finders",
+   "title": "Εύρεση email και στοιχείων επικοινωνίας",
+   "blurb": "Βρείτε emails, τηλέφωνα και social προφίλ από websites, domains ή ονόματα.",
+   "keywords": [
+    "email",
+    "e-mail",
+    "contact detail",
+    "contact info",
+    "phone number",
+    "contacts scraper",
+    "mail finder"
+   ]
+  },
+  {
+   "slug": "linkedin",
+   "title": "LinkedIn και B2B προφίλ",
+   "blurb": "Προφίλ ατόμων και εταιρειών, θέσεις, εργαζόμενοι και αναζητήσεις τύπου Sales Navigator στο LinkedIn.",
+   "keywords": [
+    "linkedin",
+    "sales navigator"
+   ]
+  },
+  {
+   "slug": "b2b-databases",
+   "title": "Βάσεις δεδομένων εταιρειών B2B",
+   "blurb": "Στοιχεία εταιρειών, υπεύθυνοι αποφάσεων και λίστες από Apollo, Crunchbase, ZoomInfo και παρόμοιες πηγές.",
+   "keywords": [
+    "apollo",
+    "crunchbase",
+    "zoominfo",
+    "lusha",
+    "rocketreach",
+    "seamless",
+    "company data",
+    "companies house",
+    "company register",
+    "firmographic",
+    "b2b",
+    "leads database",
+    "people data",
+    "decision maker"
+   ]
+  },
+  {
+   "slug": "directories",
+   "title": "Κατάλογοι επιχειρήσεων και κριτικές",
+   "blurb": "Yelp, Trustpilot, Clutch, TripAdvisor και άλλοι κατάλογοι όπου οι επιχειρήσεις δημοσιεύουν τα στοιχεία τους.",
+   "keywords": [
+    "yellow pages",
+    "yellowpages",
+    "yelp",
+    "trustpilot",
+    "clutch",
+    "bbb",
+    "tripadvisor",
+    "directory",
+    "g2",
+    "capterra",
+    "angi",
+    "thumbtack",
+    "houzz",
+    "justdial",
+    "pages jaunes",
+    "gelbe seiten",
+    "yell"
+   ]
+  },
+  {
+   "slug": "social-leads",
+   "title": "Πελάτες από social media",
+   "blurb": "Στοιχεία επικοινωνίας και κοινού από προφίλ Instagram, Facebook, TikTok, X, YouTube και Reddit.",
+   "keywords": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "twitter",
+    "youtube",
+    "reddit",
+    "threads",
+    "pinterest",
+    "telegram",
+    "whatsapp",
+    "discord",
+    "influencer"
+   ]
+  },
+  {
+   "slug": "enrichment-verification",
+   "title": "Εμπλουτισμός και επαλήθευση",
+   "blurb": "Επαληθεύστε emails και τηλέφωνα, εμπλουτίστε ένα domain ή ένα άτομο με επιπλέον πεδία και καθαρίστε τη λίστα σας πριν την επικοινωνία.",
+   "keywords": [
+    "email verif",
+    "verifier",
+    "validator",
+    "email validat",
+    "phone validat",
+    "enrichment",
+    "enrich",
+    "whois",
+    "tech stack",
+    "builtwith",
+    "wappalyzer",
+    "similarweb",
+    "skip trac",
+    "reverse phone",
+    "reverse email",
+    "people search",
+    "osint"
+   ]
+  },
+  {
+   "slug": "jobs-hiring-signals",
+   "title": "Προσλήψεις και αγγελίες εργασίας",
+   "blurb": "Εταιρείες που προσλαμβάνουν τώρα, ισχυρό σήμα αγοράς για recruiters και B2B πωλήσεις.",
+   "keywords": [
+    "job",
+    "indeed",
+    "glassdoor",
+    "hiring",
+    "career",
+    "recruit"
+   ]
+  }
+ ],
+ "fallbackGroup": {
+  "slug": "other-lead-sources",
+  "title": "Άλλες πηγές πελατών",
+  "blurb": "Εκδηλώσεις, marketplaces, μεσίτες ακινήτων, δημόσια μητρώα και κάθε άλλη εξειδικευμένη πηγή.",
+  "keywords": []
+ },
+ "extraSearches": [
+  {
+   "group": "ellada-kypros",
+   "terms": [
+    "greece",
+    "greek",
+    "cyprus",
+    "xo.gr",
+    "vrisko",
+    "spitogatos",
+    "xe.gr",
+    "kariera",
+    "e-food",
+    "car.gr",
+    "bazaraki",
+    "skroutz",
+    "athens"
+   ]
+  }
+ ],
+ "featured": [
+  "spitogatos-scraper",
+  "xe-gr-scraper",
+  "spitogatos-cy-scraper",
+  "skroutz-scraper",
+  "geo-grid-local-rank-tracker",
+  "reddit-lead-finder",
+  "luma-events-scraper",
+  "email-deliverability-auditor"
+ ],
+ "faq": [
+  [
+   "Ποιο είναι το καλύτερο εργαλείο για πελάτες από το Google Maps;",
+   "Το πιο δημοφιλές βρίσκεται στην κορυφή της ενότητας Google Maps. Διαλέξτε πρώτα με βάση τους χρήστες ανά μήνα και μετά ελέγξτε ότι επιστρέφει τα πεδία που χρειάζεστε (τα emails και τα social συνήθως είναι επιπλέον βήμα). Η αναζήτηση δουλεύει και στα ελληνικά."
+  ],
+  [
+   "Είναι νόμιμη η συλλογή στοιχείων επικοινωνίας επιχειρήσεων;",
+   "Η συλλογή δημόσιων στοιχείων επιχειρήσεων συνήθως επιτρέπεται, όμως ο GDPR εξακολουθεί να ισχύει για το πώς αποθηκεύετε και χρησιμοποιείτε τα δεδομένα, ειδικά όταν αφορούν φυσικά πρόσωπα. Ελέγξτε τους όρους του site και τη νομοθεσία πριν την επικοινωνία."
+  ],
+  [
+   "Μπορώ να στέλνω τους πελάτες κατευθείαν στο CRM μου;",
+   "Ναι. Το Apify συνδέεται με HubSpot, Google Sheets, Zapier, Make και n8n, και κάθε εκτέλεση μπορεί να στείλει webhook όταν τελειώσει."
+  ],
+  [
+   "Χρειάζομαι proxies ή δικούς μου servers;",
+   "Όχι. Οι actors τρέχουν στο cloud του Apify και διαχειρίζονται proxies και browsers για εσάς."
+  ]
+ ],
+ "ui": {
+  "statsLine": "**{count} actors σε χρήση** | **{storeTotal} ελέγχθηκαν** | **{topics} ενότητες** | Ενημέρωση {today}",
+  "startFree": "Ξεκινήστε δωρεάν στο Apify",
+  "llmsLink": "llms.txt για βοηθούς AI",
+  "customLink": "Scrapers κατά παραγγελία",
+  "languages": "Γλώσσες",
+  "whatIs": "Τι είναι αυτό;",
+  "howItWorks": "Κάθε εγγραφή είναι ένα εργαλείο στο cloud (ένας «Actor») της πλατφόρμας Apify: το ανοίγετε, συμπληρώνετε τα στοιχεία εισόδου, πατάτε Start και κατεβάζετε τα αποτελέσματα σε JSON, CSV ή Excel, ή το καλείτε από τον κώδικά σας μέσω του Apify API. Κάθε νέος λογαριασμός παίρνει δωρεάν μηνιαία πίστωση, αρκετή για να δοκιμάσετε τους περισσότερους actors χωρίς χρέωση.",
+  "descriptionNote": "> Οι τίτλοι και οι περιγραφές των actors προέρχονται αυτούσιοι από το Apify Store, συνήθως στα αγγλικά. Οι φόρμες εισόδου δέχονται αναζητήσεις στα ελληνικά.",
+  "contents": "Περιεχόμενα",
+  "topTitle": "Οι {n} πιο δημοφιλείς",
+  "topIntro": "Ταξινομημένοι με βάση πόσοι διαφορετικοί χρήστες τους έτρεξαν τις τελευταίες 30 ημέρες.",
+  "colActor": "Actor",
+  "colWhat": "Τι κάνει",
+  "colUsers": "Χρήστες ανά μήνα",
+  "colRating": "Βαθμολογία",
+  "by": "από",
+  "seeAll": "Δείτε και τους {n} actors: {title}",
+  "ownTitle": "Δικοί μας actors",
+  "ownIntro": "Actors που φτιάχνει και συντηρεί η [{brand}]({site}), η ομάδα πίσω από αυτή τη λίστα, με ιδιαίτερη εστίαση σε ελληνικές και κυπριακές πηγές. Τα προβλήματα που αναφέρονται στην καρτέλα Issues του Apify διορθώνονται συνήθως μέσα σε λίγες ημέρες.",
+  "chooseTitle": "Πώς να διαλέξετε actor",
+  "choose": [
+   "**Χρήστες ανά μήνα**: το πιο αξιόπιστο κριτήριο. Μετράει πόσοι διαφορετικοί άνθρωποι έτρεξαν τον actor τις τελευταίες 30 ημέρες, οπότε τα εγκαταλελειμμένα εργαλεία πέφτουν στο τέλος.",
+   "**Βαθμολογία**: προέρχεται από τις κριτικές του Apify Store. Βαθμός 4,5 και πάνω με δεκάδες κριτικές σημαίνει αξιόπιστα δεδομένα.",
+   "**Μοντέλο τιμολόγησης**: διαφέρει ανά actor (χρέωση ανά αποτέλεσμα, ανά γεγονός ή μηνιαία ενοικίαση). Η τρέχουσα τιμή φαίνεται πάντα στη σελίδα του actor, συγκρίνετε εκεί πριν από μια μεγάλη εκτέλεση.",
+   "**Κάντε πρώτα μια μικρή δοκιμή.** Περιορίστε την είσοδο σε 10 ή 20 αποτελέσματα, ελέγξτε τα πεδία που χρειάζεστε και μετά μεγαλώστε την κλίμακα."
+  ],
+  "runTitle": "Πώς να τρέξετε έναν actor",
+  "run": [
+   "[Δημιουργήστε δωρεάν λογαριασμό Apify]({signup}) (χωρίς κάρτα).",
+   "Ανοίξτε όποιον actor θέλετε από τη λίστα και πατήστε **Try for free**.",
+   "Συμπληρώστε τη φόρμα εισόδου (αναζητήσεις, URLs ή φίλτρα) και πατήστε **Start**.",
+   "Κατεβάστε τα αποτελέσματα από την καρτέλα **Output**, ή προγραμματίστε τον actor και στείλτε τα δεδομένα σε Google Sheets, Zapier, Make, n8n ή webhook."
+  ],
+  "fromCode": "Από κώδικα, όλοι οι actors έχουν το ίδιο API:",
+  "faqTitle": "Συχνές ερωτήσεις",
+  "faqUpdatedQ": "Πόσο συχνά ενημερώνεται η λίστα;",
+  "faqUpdatedA": "Ένα GitHub Action την ξαναφτιάχνει κάθε εβδομάδα από το δημόσιο API του Apify Store, έτσι οι νέοι actors εμφανίζονται και οι εγκαταλελειμμένοι αφαιρούνται αυτόματα.",
+  "faqAddQ": "Μπορώ να προσθέσω τον δικό μου actor;",
+  "faqAddA": "Δημοσιεύστε τον στο Apify Store στην κατηγορία {category}. Μόλις αρχίσει να χρησιμοποιείται, μπαίνει στη λίστα με την επόμενη εβδομαδιαία ενημέρωση. Δεν χρειάζεται pull request.",
+  "customTitle": "Χρειάζεστε scraper κατά παραγγελία;",
+  "customText": "Αν κανένας actor δεν καλύπτει την πηγή σας, η [{brand}]({site}) φτιάχνει και συντηρεί scrapers Apify κατά παραγγελία, με εμπειρία σε ελληνικά sites όπως Skroutz, Spitogatos και XE.gr. Στείλτε email στο {email} με το site και τα πεδία που χρειάζεστε.",
+  "footer": "Αν η λίστα σας γλίτωσε χρόνο, ένα αστέρι βοηθά κι άλλους να τη βρουν. Οι σύνδεσμοι προς το Apify περιέχουν κωδικό παραπομπής που στηρίζει τη συντήρηση της λίστας, χωρίς επιπλέον κόστος για εσάς.",
+  "groupPageTitle": "{title}: {n} actors του Apify",
+  "groupPageIntro": "Μέρος της λίστας [{catalog}](../README.md). Ταξινόμηση κατά χρήστες ανά μήνα. Ενημέρωση {today}.",
+  "groupPageCta": "[Δημιουργήστε δωρεάν λογαριασμό Apify]({signup}) για να τρέξετε οποιονδήποτε από αυτούς.",
+  "llmsIntro": "Ενημέρωση {today}. Χρήστες ανά μήνα = διαφορετικοί χρήστες τις τελευταίες 30 ημέρες. Οι σύνδεσμοι περιέχουν κωδικό παραπομπής.",
+  "llmsUsers": "{n} χρήστες ανά μήνα"
+ }
+}
