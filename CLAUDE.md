@@ -19,7 +19,7 @@ This folder is **not an actor**. Never run `apify push` here.
   over-matches: `gemi` pulled in Gemini AI tools and `11880` a German directory before they were cut.
   Country names were removed from the shop catalogs because they dragged in real estate and job tools.
 - Actor titles and descriptions stay in the Store's language (mostly English); the README says so.
-- `languages` links all five language versions of the catalog; add a new one to every sibling config.
+- `languages` links every language version of the catalog; add a new one to every sibling config.
 
 `build.py` is byte-identical across all category catalogs in `APIFY_GITHUB/`. Change it in one,
 copy it to all of them.
